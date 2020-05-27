@@ -1,0 +1,12 @@
+build/
+dist/
+nbproject/
+CMakeFiles/
+*.inc
+*.tmp
+.idea
+cmake-build-debug/
+.vscode/
+
+
+.DS_Store
