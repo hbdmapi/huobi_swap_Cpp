@@ -103,24 +103,29 @@ namespace HuobiSwap {
 
         UrlParamsBuilder& putPost(const std::string& pre, long lparam) {
 
+            /*
             if (lparam == 0) {
                 return *this;
             }
+            */
             return putPostImpl(pre, lparam);
         }
 
         UrlParamsBuilder& putPost(const std::string& pre, int lparam) {
-
+            /*
             if (lparam == 0) {
                 return *this;
             }
+            */
             return putPostImpl(pre, lparam);
         }
 
         UrlParamsBuilder& putPost(const std::string& pre, Decimal lparam) {
+            /*
             if (lparam.isZero()) {
                 return *this;
             }
+            */
             return putPostImpl(pre, lparam);
         }
 
